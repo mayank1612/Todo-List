@@ -37,6 +37,9 @@ const listSchema={
 
 const List=mongoose.model("list",listSchema);
 
+app.get("/favicon.ico",function (req,res) {
+  res.render("testing page");
+})
 app.get('/', (req, res) => {
   //const day = date.getDate();
   Item.find({}, function (err, foundItems) {
