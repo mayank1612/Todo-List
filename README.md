@@ -8,7 +8,7 @@
   <li>Add Multiple Items in List</li>
   <li>Delete Items from List</li>
   <li>Access Different List by Adding "/LISTNAME" in URL </li>
-  <li>Linked to MongoDB<li>
+  <li>Linked to MongoDB</li>
 </ul>  
 
 
